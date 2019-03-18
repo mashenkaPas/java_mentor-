@@ -1,0 +1,124 @@
+
+
+Section: Ex00  (20%)
+Try the program with this input (Y/N) 
+	Bird sparrow = new Bird();
+	bird.fly();
+The Output should be:
+I am flying
+--------------------------------------------
+Try the program with this input (Y/N) 
+	Bird bird= new Bird();
+	bird.fly();
+	bird.walk();
+	bird.sign();
+The Output should be:
+	I am walking
+	I am flying
+	I am singing
+--------------------------------------------
+Try the program with this input (Y/N) 
+	Bird bird = new Bird();
+	System.out.println("My superclass is: " + bird.getClass().getSuperclass().getName());
+The Output should be:
+	My superclass is: Animal
+Is method walk() inside of class Bird; (Y/N)
+(No is right answer);
+---------------------------------------------
+Ask them about method walk(), can they explain why they dont have method walk() in Bird class .
+----------------------------------------------
+Ask about method sign(), and where is it located (Animal or Bird class), and why they decided to put it there?
+==========================================================================(20%)
+
+Section: Ex01
+
+Try the program with this input (Y/N) 
+	Adder a = new Adder();
+	System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
+The Output should be:
+	My superclass is: Arithmetic;
+------------------------------------------------
+Try the program with this input (Y/N) 
+	Adder a = new Adder();
+	System.out.print(a.add(10,32) + " " + a.add(10,3) + " " + a.add(10,10) + "\n");
+
+The Output should be:
+	42 13 20;
+-------------------------------------------------
+Ask them about reading from stdin ? how did they handle it? (1-3)
+
+================================================================================(25%)
+
+Section: Ex02
+Try the program with this input (Y/N) 
+		Sports c1 = new Sports();
+        Soccer c2 = new Soccer();
+        System.out.println(c1.getName());
+        c1.getNumberOfTeamMembers();
+        System.out.println(c2.getName());
+        c2.getNumberOfTeamMembers();
+The Output should be:
+		Generic Sports
+		Each team has n players in Generic Sports
+		Soccer Class
+		Each team has 11 players in Soccer Class
+-------------------------------------------------
+Try the program with this input (Y/N) 
+		Soccer c2 = new Soccer();
+		System.out.println("My superclass is: " + c2.getClass().getSuperclass().getName());
+The Output should be:
+		My superclass is: Sports
+-------------------------------------------------
+ Ask what is mean @Override annotation.Did he use it or not? And why ?(1-5) 
+
+============================================================================(35 %)
+Section: Ex03
+
+Try the program with this input (Y/N) 
+		Car car = new Car(8, "Base car"); 
+		System.out.println(car.startEngine()); 
+		System.out.println(car.accelerate()); 
+		System.out.println(car.brake());
+The Output should be:
+		Car -> startEngine()
+		Car -> accelerate()
+		Car -> brake()
+--------------------------------------------------------
+Try the program with this input (Y/N) 
+		Volvo volvo = new Volvo(8, "XC90"); 
+		System.out.println(volvo.startEngine()); 
+		System.out.println(volvo.accelerate()); 
+		System.out.println(volvo.brake());
+The Output should be:
+		Volvo -> startEngine()
+		Volvo -> accelerate()
+		Volvo -> brake()
+---------------------------------------------------------
+Try the program with this input (Y/N) 
+		Volvo volvo = new Volvo(4, "XC90"); 
+		System.out.println(volvo.getName()); 
+		System.out.println(volvo.getCylinders()); 
+The Output should be:
+		XC90
+		4
+--------------------------------------------------------
+Try the program with this input (Y/N) 
+		Mercedes m = new Mercedes(4,"LS");
+		System.out.println("My superclass is: " + m.getClass().getSuperclass().getName());
+The Output should be:
+		My superclass is: Car
+----------------------------------------------------------
+Try the program with this input (Y/N) 
+		Mercedes m = new Mercedes(4,"LS");
+		System.out.println("My superclass is: " + m.getClass().getSuperclass().getName());
+The Output should be:
+		My superclass is: Car
+---------------------------------------------------------
+Try the program with this input (Y/N) 
+		Mitsubishi mit = newMitsubishi(4,"LS");
+		System.out.println("My superclass is: " + mit.getClass().getSuperclass().getName());
+The Output should be:
+		My superclass is: Car
+---------------------------------------------------------------
+Ask about fields.Are they private ?What is the difference between private, protected, public and package modifier in Java?
+And Why ?(1-5)
